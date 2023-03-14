@@ -1,12 +1,10 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import Test from './components/test';
+import React , { FC } from 'react';
 
-function App() {
+const App : FC = () => {
   return (
     <div className="App">
-      <Test></Test>
+      <div className='header'></div>
+      <div className='todoList'></div>
     </div>
   );
 }
